@@ -4,7 +4,7 @@
 
 This is a simple service module that allows you to localize your AngularJS applications.
 
-The service provides you to return a localized string based on the current locale of the browser.
+The service returns a localized string based on the current locale of the browser.
 
 You can inject the service into every controller or use an Application Level controller that loads the service and handles the calls.
 
