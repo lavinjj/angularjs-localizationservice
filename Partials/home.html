@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="row-fluid">
+        <h2 ng-bind="getLocalizedString('_HomeControllerTitle_')"></h2>
+    </div>
+    <div class="row-fluid">
+        <div class="well">
+            <div class="span1" ng-bind="getLocalizedString('_NameHeader_')"></div>
+            <div class="span2" ng-bind="getLocalizedString('_EmailHeader_')"></div>
+            <div class="span3" ng-bind="getLocalizedString('_BioHeader_')"></div>
+            <div class="span1"><a href="#/new"><span class="icon icon-plus"></span></a></div>
+        </div>
+        <div class="row-fluid" ng-repeat="person in People">
+            <div class="span1" ng-bind="person.FirstName + ' ' + person.LastName"></div>
+            <div class="span2" ng-bind="person.Email"></div>
+            <div class="span3" ng-bind="person.Bio"></div>
+            <div class="span1"><a href="#/edit/{{$index}}"><span class="icon icon-edit"></span></a></div>
+        </div>
+    </div>
+</div>

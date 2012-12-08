@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="localizeApp">
+<head>
+    <title>AngularJS Localization Resource Service</title>
+    <link rel="shortcut icon" type="image/png" href="Content/ico/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="Content/jquery-ui/jquery-ui-1.9.2.custom.css">
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Content/bootstrap/bootstrap-responsive.css">
+    <link rel="stylesheet" type="text/css" href="Content/angular-ui/angular-ui.css">
+    <script type="text/javascript" src="Scripts/lib/jquery/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="Scripts/lib/jquery-ui/jquery-ui-1.9.2.custom.js"></script>
+    <script type="text/javascript" src="Scripts/lib/bootstrap/bootstrap.js"></script>
+    <script type="text/javascript" src="Scripts/lib/angular/angular.js"></script>
+    <script type="text/javascript" src="Scripts/lib/angular-ui/angular-ui.js"></script>
+    <script type="text/javascript" src="Scripts/modules/localizationservice.js"></script>
+    <script type="text/javascript" src="Scripts/app/app.js"></script>
+    <script type="text/javascript" src="Scripts/app/AppController.js"></script>
+    <script type="text/javascript" src="Scripts/app/HomeController.js"></script>
+    <script type="text/javascript" src="Scripts/app/NewPersonController.js"></script>
+    <script type="text/javascript" src="Scripts/app/EditPersonController.js"></script>
+</head>
+<body ng-controller="AppController">
+    <H1 ng-bind="getLocalizedString('_HomeTitle_')"></H1>
+
+    <div ng-bind="getLocalizedString('_Greeting_')"></div>
+    <div ng-view></div>
+</body>
+</html>
