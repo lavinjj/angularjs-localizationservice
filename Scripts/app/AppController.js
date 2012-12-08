@@ -6,17 +6,13 @@
  * To change this template use File | Settings | File Templates.
  */
 
-'use strict'
+'use strict';
 
 function AppController($scope, localize) {
     $scope.People = [{FirstName:"Jim", LastName:"Lavin", Email:"jlavin@jimlavin.net", Bio:"Creator and Host of Coding Smackdown TV"}];
 
     $scope.init = function () {
         localize.getLocalizedResources();
-    };
-
-    $scope.getLocalizedString = function (key) {
-        return localize.getLocalizedString(key);
     };
 
     $scope.init();

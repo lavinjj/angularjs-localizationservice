@@ -5,32 +5,32 @@
     <div class="row-fluid">
         <form name="myForm" class="form-horizontal span5 well">
             <div class="row-fluid">
-                <input type="text" ng-model="person.FirstName" required id="FirstName" name="FirstName" class="input-large" placeholder="{{getLocalizedString('_FirstNameLabel_')}}" />
+                <input type="text" ng-model="person.FirstName" required id="FirstName" name="FirstName" class="input-large" placeholder="'_FirstNameLabel_' | i18n" />
             </div>
             <div class="row-fluid">
                 &nbsp;
             </div>
             <div class="row-fluid">
-                <input type="text" ng-model="person.LastName" required id="LastName" name="LastName" class="input-large" placeholder="{{getLocalizedString('_LastNameLabel_')}}"/>
+                <input type="text" ng-model="person.LastName" required id="LastName" name="LastName" class="input-large" placeholder="'_LastNameLabel_' | i18n"/>
             </div>
             <div class="row-fluid">
                 &nbsp;
             </div>
             <div class="row-fluid">
-                <input type="text" ng-model="person.Email" required id="Email" name="Email" class="input-large" placeholder="{{getLocalizedString('_EMailLabel_')}}"/>
+                <input type="text" ng-model="person.Email" required id="Email" name="Email" class="input-large" placeholder="'_EMailLabel_' | i18n"/>
             </div>
             <div class="row-fluid">
                 &nbsp;
             </div>
             <div class="row-fluid">
-                <textarea ng-model="person.Bio" required id="Bio" name="Bio" class="input-xxlarge" placeholder="{{getLocalizedString('_BioLabel_')}}"></textarea>
+                <textarea ng-model="person.Bio" required id="Bio" name="Bio" class="input-xxlarge" placeholder="'_BioLabel_' | i18n"></textarea>
             </div>
             <div class="row-fluid">
                 &nbsp;
             </div>
             <div class="row-fluid">
-                <button class="btn-primary" ng-click="savePerson()" ng-bind="getLocalizedString('_SaveButtonLabel_')"></button>
-                <button class="btn-primary" ng-click="cancel()" ng-bind="getLocalizedString('_CancelButtonLabel_')"></button>
+                <button class="btn-primary" ng-click="savePerson()" ng-bind="'_SaveButtonLabel_' | i18n"></button>
+                <button class="btn-primary" ng-click="cancel()" ng-bind="'_CancelButtonLabel_' | i18n"></button>
             </div>
         </form>
     </div>

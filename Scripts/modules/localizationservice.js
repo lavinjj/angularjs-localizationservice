@@ -12,9 +12,11 @@
 
 var services = angular.module('localization.service', []);
 
-services.factory('localize', ['$http', '$rootScope', '$locale', '$filter', function ($http, $rootScope, $locale, $filter) {
+services.factory('localize', ['$http', '$rootScope', '$window', '$filter', function ($http, $rootScope, $window, $filter) {
     var localize = {
+        language: $window.navigator.userLanguage || $window.navigator.language,
         dictionary: [],
+        initProcessed: false,
 
         successCallback:function(data) {
             localize.dictionary = data;
@@ -22,7 +24,7 @@ services.factory('localize', ['$http', '$rootScope', '$locale', '$filter', funct
         },
 
         getLocalizedResources:function() {
-            var url = '/i18n/resources-locale_' + $locale.id + '.js';
+            var url = '/i18n/resources-locale_' + localize.language + '.js';
 
             return $http({ method:"GET", url:url, cache:false }).success(localize.successCallback).error(function(){
                 var url = '/i18n/resources-locale_default.js';
@@ -33,6 +35,12 @@ services.factory('localize', ['$http', '$rootScope', '$locale', '$filter', funct
 
         getLocalizedString:function(key) {
             var result = '';
+
+            if(!localize.initProcessed) {
+                localize.getLocalizedResources();
+                localize.initProcessed = true;
+                return result;
+            }
 
             if((localize.dictionary !== {}) && (localize.dictionary.length > 0)){
                 var entry = $filter('filter')(localize.dictionary, {key: key})[0];

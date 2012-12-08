@@ -10,7 +10,7 @@
 
 /* App Module */
 
-angular.module('localizeApp', ['localization.service']).
+angular.module('localizeApp', ['localization.service', 'localization.filters']).
     config(['$routeProvider', function ($routeProvider) {
     $routeProvider.
         when('/', {templateUrl:'partials/home.html', controller:HomeController}).
