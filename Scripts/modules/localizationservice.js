@@ -21,6 +21,7 @@ services.factory('localize', ['$http', '$rootScope', '$window', '$filter', funct
         successCallback:function(data) {
             localize.dictionary = data;
             $rootScope.$broadcast('localizeResourcesUpdates');
+            localize.initProcessed = true;
         },
 
         getLocalizedResources:function() {
@@ -42,7 +43,7 @@ services.factory('localize', ['$http', '$rootScope', '$window', '$filter', funct
                 return result;
             }
 
-            if((localize.dictionary !== {}) && (localize.dictionary.length > 0)){
+            if((localize.dictionary !== []) && (localize.dictionary.length > 0)){
                 var entry = $filter('filter')(localize.dictionary, {key: key})[0];
 
                 if((entry !== null) && (entry != undefined)) {

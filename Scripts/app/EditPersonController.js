@@ -13,7 +13,6 @@ function EditPersonController($scope, $location, $routeParams) {
     $scope.person = $scope.People[$routeParams.index];
 
     $scope.savePerson = function() {
-        $scope.People.push($scope.person);
         $location.path('/');
     };
 
