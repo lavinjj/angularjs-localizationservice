@@ -1,4 +1,4 @@
-#Resource Localization Service
+#AngularJS Resource Localization Service
 
 ## Overview
 
@@ -6,7 +6,7 @@ This is a simple service module that allows you to localize your AngularJS appli
 
 The service returns a localized string based on the current locale of the browser.
 
-You can inject the service into every controller or use an Application Level controller that loads the service and handles the calls.
+You can inject the service into a controller or use it via the i18n filter provided in the code.
 
 ## Wiring It Up
 
@@ -35,4 +35,3 @@ The key is used to look up the localized string, the value will be returned from
 I've created a sample app that uses the Resource Localization Service to provide the text for the entire application. I registered both 'localization.service' and 'localization.filters' in my app's dependency list and I then use ng-bind="'_HomeTitle_' | i18n" to insert the text into the page at run time.
 
 Enjoy!
-
