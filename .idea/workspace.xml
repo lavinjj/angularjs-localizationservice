@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70596c34-0f92-4d73-9f2d-b877d9f1d80c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="DELETED" beforePath="C:\code.explode\angularjs-localizationservice\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\code.explode\angularjs-localizationservice\src\i18ntranslationfilter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\code.explode\angularjs-localizationservice\src\localizationservice.js" afterPath="" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\angular-ui\angular-ui.css" afterPath="$PROJECT_DIR$/app/content/angular-ui/angular-ui.css" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\angular-ui\angular-ui.min.css" afterPath="$PROJECT_DIR$/app/content/angular-ui/angular-ui.min.css" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\bootstrap\bootstrap-responsive.css" afterPath="$PROJECT_DIR$/app/content/bootstrap/bootstrap-responsive.css" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\bootstrap\bootstrap.css" afterPath="$PROJECT_DIR$/app/content/bootstrap/bootstrap.css" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\ico\apple-touch-icon-114-precomposed.png" afterPath="$PROJECT_DIR$/app/content/ico/apple-touch-icon-114-precomposed.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\ico\apple-touch-icon-144-precomposed.png" afterPath="$PROJECT_DIR$/app/content/ico/apple-touch-icon-144-precomposed.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\ico\apple-touch-icon-57-precomposed.png" afterPath="$PROJECT_DIR$/app/content/ico/apple-touch-icon-57-precomposed.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\ico\apple-touch-icon-72-precomposed.png" afterPath="$PROJECT_DIR$/app/content/ico/apple-touch-icon-72-precomposed.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\ico\favicon.ico" afterPath="$PROJECT_DIR$/app/content/ico/favicon.ico" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\bootstrap-mdo-sfmoma-01.jpg" afterPath="$PROJECT_DIR$/app/content/img/bootstrap-mdo-sfmoma-01.jpg" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\bootstrap-mdo-sfmoma-02.jpg" afterPath="$PROJECT_DIR$/app/content/img/bootstrap-mdo-sfmoma-02.jpg" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\bootstrap-mdo-sfmoma-03.jpg" afterPath="$PROJECT_DIR$/app/content/img/bootstrap-mdo-sfmoma-03.jpg" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\bs-docs-bootstrap-features.png" afterPath="$PROJECT_DIR$/app/content/img/bs-docs-bootstrap-features.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\bs-docs-masthead-pattern.png" afterPath="$PROJECT_DIR$/app/content/img/bs-docs-masthead-pattern.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\bs-docs-responsive-illustrations.png" afterPath="$PROJECT_DIR$/app/content/img/bs-docs-responsive-illustrations.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\bs-docs-twitter-github.png" afterPath="$PROJECT_DIR$/app/content/img/bs-docs-twitter-github.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/app/content/img/glyphicons-halflings-white.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\glyphicons-halflings.png" afterPath="$PROJECT_DIR$/app/content/img/glyphicons-halflings.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\grid-baseline-20px.png" afterPath="$PROJECT_DIR$/app/content/img/grid-baseline-20px.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\less-logo-large.png" afterPath="$PROJECT_DIR$/app/content/img/less-logo-large.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\img\responsive-illustrations.png" afterPath="$PROJECT_DIR$/app/content/img/responsive-illustrations.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-icons_222222_256x240.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-icons_2e83ff_256x240.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-icons_454545_256x240.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-icons_888888_256x240.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\images\ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/app/content/jquery-ui/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\jquery-ui-1.9.2.custom.css" afterPath="$PROJECT_DIR$/app/content/jquery-ui/jquery-ui-1.9.2.custom.css" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Content\jquery-ui\jquery-ui-1.9.2.custom.min.css" afterPath="$PROJECT_DIR$/app/content/jquery-ui/jquery-ui-1.9.2.custom.min.css" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Partials\form.html" afterPath="$PROJECT_DIR$/app/partials/form.html" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Partials\home.html" afterPath="$PROJECT_DIR$/app/partials/home.html" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\app\AppController.js" afterPath="$PROJECT_DIR$/app/scripts/AppController.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\app\EditPersonController.js" afterPath="$PROJECT_DIR$/app/scripts/EditPersonController.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\app\HomeController.js" afterPath="$PROJECT_DIR$/app/scripts/HomeController.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\app\NewPersonController.js" afterPath="$PROJECT_DIR$/app/scripts/NewPersonController.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\app\app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular-ui\angular-ui-ieshiv.js" afterPath="$PROJECT_DIR$/app/components/angular-ui/angular-ui-ieshiv.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular-ui\angular-ui-ieshiv.min.js" afterPath="$PROJECT_DIR$/app/components/angular-ui/angular-ui-ieshiv.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular-ui\angular-ui.js" afterPath="$PROJECT_DIR$/app/components/angular-ui/angular-ui.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular-ui\angular-ui.min.js" afterPath="$PROJECT_DIR$/app/components/angular-ui/angular-ui.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-bootstrap-prettify.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-bootstrap-prettify.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-bootstrap-prettify.min.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-bootstrap-prettify.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-bootstrap.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-bootstrap.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-bootstrap.min.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-bootstrap.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-cookies.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-cookies.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-cookies.min.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-cookies.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-loader.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-loader.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-loader.min.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-loader.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-mocks.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-mocks.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-resource.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-resource.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-resource.min.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-resource.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-sanitize.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-sanitize.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-sanitize.min.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-sanitize.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular-scenario.js" afterPath="$PROJECT_DIR$/app/components/angular/angular-scenario.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular.js" afterPath="$PROJECT_DIR$/app/components/angular/angular.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\angular.min.js" afterPath="$PROJECT_DIR$/app/components/angular/angular.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_am-et.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_am-et.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_am.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_am.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ar-eg.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ar-eg.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ar.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ar.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_bg-bg.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_bg-bg.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_bg.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_bg.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_bn-bd.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_bn-bd.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_bn.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_bn.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ca-es.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ca-es.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ca.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ca.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_cs-cz.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_cs-cz.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_cs.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_cs.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_da-dk.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_da-dk.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_da.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_da.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_de-at.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_de-at.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_de-be.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_de-be.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_de-ch.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_de-ch.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_de-de.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_de-de.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_de-lu.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_de-lu.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_de.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_de.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_el-gr.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_el-gr.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_el-polyton.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_el-polyton.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_el.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_el.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-as.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-as.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-au.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-au.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-dsrt-us.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-dsrt-us.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-dsrt.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-dsrt.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-gb.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-gb.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-gu.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-gu.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-ie.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-ie.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-in.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-in.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-iso.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-iso.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-mh.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-mh.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-mp.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-mp.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-sg.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-sg.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-um.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-um.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-us.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-us.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-vi.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-vi.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-za.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-za.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en-zz.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en-zz.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_en.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_en.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_es-es.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_es-es.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_es.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_es.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_et-ee.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_et-ee.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_et.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_et.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_eu-es.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_eu-es.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_eu.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_eu.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fa-ir.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fa-ir.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fa.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fa.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fi-fi.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fi-fi.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fi.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fi.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fil-ph.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fil-ph.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fil.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fil.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fr-bl.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fr-bl.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fr-ca.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fr-ca.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fr-fr.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fr-fr.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fr-gp.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fr-gp.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fr-mc.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fr-mc.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fr-mf.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fr-mf.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fr-mq.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fr-mq.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fr-re.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fr-re.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_fr.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_fr.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_gl-es.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_gl-es.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_gl.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_gl.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_gsw-ch.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_gsw-ch.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_gsw.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_gsw.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_gu-in.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_gu-in.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_gu.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_gu.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_he-il.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_he-il.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_he.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_he.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_hi-in.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_hi-in.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_hi.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_hi.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_hr-hr.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_hr-hr.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_hr.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_hr.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_hu-hu.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_hu-hu.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_hu.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_hu.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_id-id.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_id-id.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_id.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_id.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_in.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_in.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_is-is.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_is-is.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_is.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_is.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_it-it.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_it-it.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_it.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_it.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_iw.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_iw.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ja-jp.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ja-jp.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ja.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ja.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_kn-in.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_kn-in.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_kn.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_kn.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ko-kr.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ko-kr.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ko.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ko.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ln-cd.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ln-cd.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ln.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ln.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_lt-lt.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_lt-lt.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_lt.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_lt.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_lv-lv.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_lv-lv.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_lv.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_lv.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ml-in.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ml-in.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ml.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ml.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_mo.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_mo.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_mr-in.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_mr-in.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_mr.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_mr.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ms-my.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ms-my.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ms.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ms.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_mt-mt.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_mt-mt.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_mt.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_mt.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_nl-nl.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_nl-nl.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_nl.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_nl.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_no.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_no.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_or-in.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_or-in.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_or.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_or.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_pl-pl.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_pl-pl.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_pl.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_pl.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_pt-br.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_pt-br.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_pt-pt.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_pt-pt.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_pt.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_pt.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ro-ro.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ro-ro.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ro.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ro.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ru-ru.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ru-ru.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ru.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ru.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sk-sk.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sk-sk.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sk.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sk.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sl-si.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sl-si.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sl.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sl.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sq-al.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sq-al.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sq.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sq.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sr-cyrl-rs.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sr-cyrl-rs.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sr-latn-rs.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sr-latn-rs.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sr-rs.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sr-rs.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sr.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sr.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sv-se.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sv-se.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sv.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sv.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sw-tz.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sw-tz.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_sw.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_sw.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ta-in.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ta-in.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ta.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ta.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_te-in.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_te-in.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_te.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_te.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_th-th.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_th-th.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_th.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_th.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_tl-ph.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_tl-ph.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_tl.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_tl.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_tr-tr.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_tr-tr.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_tr.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_tr.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_uk-ua.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_uk-ua.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_uk.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_uk.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ur-pk.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ur-pk.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_ur.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_ur.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_vi-vn.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_vi-vn.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_vi.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_vi.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_zh-cn.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_zh-cn.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_zh-hans-cn.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_zh-hans-cn.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_zh-hans.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_zh-hans.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_zh-hk.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_zh-hk.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_zh-tw.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_zh-tw.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\i18n\angular-locale_zh.js" afterPath="$PROJECT_DIR$/app/components/angular/i18n/angular-locale_zh.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\jstd-scenario-adapter-config.js" afterPath="$PROJECT_DIR$/app/components/angular/jstd-scenario-adapter-config.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\angular\jstd-scenario-adapter.js" afterPath="$PROJECT_DIR$/app/components/angular/jstd-scenario-adapter.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-affix.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-affix.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-alert.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-alert.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-button.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-button.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-carousel.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-carousel.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-collapse.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-collapse.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-dropdown.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-dropdown.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-modal.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-modal.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-popover.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-popover.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-scrollspy.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-scrollspy.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-tab.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-tab.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-tooltip.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-tooltip.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-transition.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-transition.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap-typeahead.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap-typeahead.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\bootstrap\bootstrap.min.js" afterPath="$PROJECT_DIR$/app/components/bootstrap/bootstrap.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\jasmine\MIT.LICENSE" afterPath="$PROJECT_DIR$/tests/components/jasmine/MIT.LICENSE" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\jasmine\jasmine-html.js" afterPath="$PROJECT_DIR$/tests/components/jasmine/jasmine-html.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\jasmine\jasmine.css" afterPath="$PROJECT_DIR$/tests/components/jasmine/jasmine.css" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\jasmine\jasmine.js" afterPath="$PROJECT_DIR$/tests/components/jasmine/jasmine.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\jquery-ui\jquery-ui-1.9.2.custom.js" afterPath="$PROJECT_DIR$/app/components/jquery-ui/jquery-ui-1.9.2.custom.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\jquery-ui\jquery-ui-1.9.2.custom.min.js" afterPath="$PROJECT_DIR$/app/components/jquery-ui/jquery-ui-1.9.2.custom.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\jquery\jquery-1.8.3.js" afterPath="$PROJECT_DIR$/app/components/jquery/jquery-1.8.3.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\Scripts\lib\jquery\jquery-1.8.3.min.js" afterPath="$PROJECT_DIR$/app/components/jquery/jquery-1.8.3.min.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\SpecRunner.html" afterPath="$PROJECT_DIR$/tests/SpecRunner.html" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\i18n\resources-locale_default.js" afterPath="$PROJECT_DIR$/app/i18n/resources-locale_default.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\i18n\resources-locale_en-US.js" afterPath="$PROJECT_DIR$/app/i18n/resources-locale_en-US.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\i18n\resources-locale_es-es.js" afterPath="$PROJECT_DIR$/app/i18n/resources-locale_es-es.js" />
+      <change type="MOVED" beforePath="C:\code.explode\angularjs-localizationservice\i18n\resources-locale_es.js" afterPath="$PROJECT_DIR$/app/i18n/resources-locale_es.js" />
+    </list>
+    <ignored path="angularjs-localizationservice.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Scripts/modules/localizejs.js" />
+        <option value="$PROJECT_DIR$/src/localizationservice.js" />
+        <option value="$PROJECT_DIR$/src/localizejs.js" />
+        <option value="$PROJECT_DIR$/src/Localize_post.txt" />
+        <option value="$PROJECT_DIR$/app/Scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/AppController.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-localizationservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-localizationservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-localizationservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-localizationservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-localizationservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-localizationservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-localizationservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-localizationservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angularjs-localizationservice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angularjs-gravatardirective/src/gravatardirective.js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code.explode\angularjs-localizationservice\app\components\localize" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code.explode\angularjs-localizationservice\tests" />
+      <recent name="C:\code.explode\angularjs-localizationservice\tests\components" />
+      <recent name="C:\code.explode\angularjs-localizationservice\src" />
+      <recent name="C:\code.explode\angularjs-localizationservice\app" />
+      <recent name="C:\code.explode\angularjs-localizationservice\Scripts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70596c34-0f92-4d73-9f2d-b877d9f1d80c" name="Default" comment="" />
+      <created>1355512237237</created>
+      <updated>1355512237237</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986821" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/i18n/resources-locale_default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="5" selection-start="0" selection-end="310" vertical-scroll-proportion="0.18660812">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../angularjs-gravatardirective/src/gravatardirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="0" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/localizejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="15" selection-start="134" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/content/ico/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="7" selection-start="1626" selection-end="1626" vertical-scroll-proportion="-17.653847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/AppController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.22392975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/angular/angular-scenario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18087" column="13" selection-start="533453" selection-end="533453" vertical-scroll-proportion="0.2182628">
+          <folding>
+            <marker date="1355178722433" expanded="false" signature="35068:35099" placeholder="..." />
+            <marker date="1355178722433" expanded="false" signature="43761:43771" placeholder="..." />
+            <marker date="1355178722433" expanded="true" signature="798350:798372" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="798386:798409" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="798557:798630" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="798648:798696" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="798712:798734" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="798746:798786" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="798797:798823" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="798844:798910" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="798925:799065" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799097:799155" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799174:799222" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799281:799306" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799323:799344" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799368:799406" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799431:799452" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799476:799497" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799576:799606" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799649:799682" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799697:799870" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799902:799937" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="799967:800001" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800029:800085" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800101:800128" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800169:800190" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800213:800239" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800271:800332" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800391:800468" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800486:800509" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800530:800557" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800575:800663" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800700:800758" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800777:800807" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800841:800874" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800927:800961" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="800977:801023" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801052:801086" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801100:801138" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801170:801204" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801221:801255" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801289:801401" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801421:801452" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801517:801551" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801616:801650" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801715:801749" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801810:801859" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801905:801928" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="801974:801997" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="802041:802062" placeholder="{...}" />
+            <marker date="1355178722433" expanded="true" signature="802094:802114" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="241" selection-end="241" vertical-scroll-proportion="0.22392975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="4" selection-start="0" selection-end="1709" vertical-scroll-proportion="0.6915254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

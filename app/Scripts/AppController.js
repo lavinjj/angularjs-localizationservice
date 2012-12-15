@@ -8,13 +8,7 @@
 
 'use strict';
 
-function AppController($scope, localize) {
+function AppController($scope) {
     $scope.People = [{FirstName:"Jim", LastName:"Lavin", Email:"jlavin@jimlavin.net", Bio:"Creator and Host of Coding Smackdown TV"}];
-
-    $scope.init = function () {
-        localize.getLocalizedResources();
-    };
-
-    $scope.init();
 }
 
