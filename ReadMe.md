@@ -32,6 +32,6 @@ The key is used to look up the localized string, the value will be returned from
 
 ## Sample App
 
-I've created a sample app that uses the Resource Localization Service to provide the text for the entire application. I registered both 'localization.service' and 'localization.filters' in my app's dependency list and I then use ng-bind="'_HomeTitle_' | i18n" to insert the text into the page at run time.
+I've created a sample app that uses the Resource Localization Service to provide the text for the entire application. I registered 'localization' in my app's dependency list and I then use ng-bind="'_HomeTitle_' | i18n" to insert the text into the page at run time.
 
 Enjoy!
