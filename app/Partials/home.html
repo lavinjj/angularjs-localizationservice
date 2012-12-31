@@ -1,12 +1,12 @@
 <div class="container-fluid">
     <div class="row-fluid">
-        <h2 ng-bind="'_HomeControllerTitle_' | i18n"></h2>
+        <h2 data-i18n="_HomeControllerTitle_"></h2>
     </div>
     <div class="row-fluid">
         <div class="well">
-            <div class="span1" ng-bind="'_NameHeader_' | i18n"></div>
-            <div class="span2" ng-bind="'_EmailHeader_' | i18n"></div>
-            <div class="span3" ng-bind="'_BioHeader_' | i18n"></div>
+            <div class="span1" data-i18n="_NameHeader_"></div>
+            <div class="span2" data-i18n="_EmailHeader_"></div>
+            <div class="span3" data-i18n="_BioHeader_"></div>
             <div class="span1"><a href="#/new"><span class="icon icon-plus"></span></a></div>
         </div>
         <div class="row-fluid" ng-repeat="person in People">

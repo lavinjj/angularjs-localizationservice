@@ -1,6 +1,6 @@
 <div class="container-fluid" >
     <div class="row-fluid">
-        <h2 ng-bind="'_FormControllerTitle_' | i18n"></h2>
+        <h2 data-i18n="_FormControllerTitle_"></h2>
     </div>
     <div class="row-fluid">
         <form name="myForm" class="form-horizontal span5 well">
@@ -29,8 +29,8 @@
                 &nbsp;
             </div>
             <div class="row-fluid">
-                <button class="btn-primary" ng-click="savePerson()" ng-bind="'_SaveButtonLabel_' | i18n"></button>
-                <button class="btn-primary" ng-click="cancel()" ng-bind="'_CancelButtonLabel_' | i18n"></button>
+                <button class="btn-primary" ng-click="savePerson()" data-i18n="_SaveButtonLabel_"></button>
+                <button class="btn-primary" ng-click="cancel()" data-i18n="_CancelButtonLabel_"></button>
             </div>
         </form>
     </div>

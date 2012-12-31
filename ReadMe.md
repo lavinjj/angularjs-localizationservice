@@ -6,7 +6,7 @@ This is a simple service module that allows you to localize your AngularJS appli
 
 The service returns a localized string based on the current locale of the browser.
 
-You can inject the service into a controller or use it via the i18n filter provided in the code.
+You can inject the service into a controller or use it via the i18n filter or the i18n directive provided in the code.
 
 ## Wiring It Up
 
@@ -16,7 +16,7 @@ You need to follow a few steps to wire the service into your app:
 2. Ensure you add 'localization' to your app's dependency list.
 2. Create a folder off the root of your web app named i18n and create a resource-locale_default.js file in it.
 3. For every language you want to provide localized strings for you will also need to create a resource file that ends in the languageId-countryId (e.g. resource-locale_en-us.js).
-5. To get the translated string use either ng-bind="'_HomeTitle_' | i18n" or {{'_HomeTitle_' | i18n}} in your HTML.
+5. To get the translated string using the filter with either ng-bind="'_HomeTitle_' | i18n" or {{'_HomeTitle_' | i18n}} in your HTML. You can use the directive by adding the data-i18n="_HomeTitle_" attribute to your markup.
 
 ## Localization File Format
 
@@ -32,6 +32,8 @@ The key is used to look up the localized string, the value will be returned from
 
 ## Sample App
 
-I've created a sample app that uses the Resource Localization Service to provide the text for the entire application. I registered 'localization' in my app's dependency list and I then use ng-bind="'_HomeTitle_' | i18n" to insert the text into the page at run time.
+I've created a sample app that uses the Resource Localization Service to provide the text for the entire application. I registered 'localization' in my app's dependency list and I then use a combination of ng-bind="'_HomeTitle_' | i18n" and data-i18n="_HomeTitle_" to insert the text into the page at run time.
+
+There is a delay loading the resource file, you may need to use the filter instead of the directive on the home page. This is due to the fact that the directive is only called once per instance where a filter is re-evaluated each time the DOM is compiled.
 
 Enjoy!

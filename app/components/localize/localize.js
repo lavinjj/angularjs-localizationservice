@@ -42,15 +42,6 @@ angular.module('localization', []).
         getLocalizedString:function (value) {
             // default the result to an empty string
             var result = '';
-            // check to see if the resource file has been loaded
-            if (!localize.resourceFileLoaded) {
-                // call the init method
-                localize.initLocalizedResources();
-                // set the flag to keep from looping in init
-                localize.resourceFileLoaded = true;
-                // return the empty string
-                return result;
-            }
             // make sure the dictionary has valid data
             if ((localize.dictionary !== []) && (localize.dictionary.length > 0)) {
                 // use the filter service to only return those entries which match the value
@@ -66,11 +57,28 @@ angular.module('localization', []).
             return result;
         }
     };
+
+    // force the load of the resource file
+    localize.initLocalizedResources();
+
     // return the local instance when called
     return localize;
 } ]).
     filter('i18n', ['localize', function (localize) {
     return function (input) {
         return localize.getLocalizedString(input);
+    };
+}]).directive('i18n', ['localize', function(localize){
+    return {
+        restrict:"EAC",
+        link:function (scope, elm, attrs) {
+            // construct the tag to insert into the element
+            var tag = localize.getLocalizedString(attrs.i18n);
+            // update the element only if data was returned
+            if((tag !== null) && (tag !== undefined) && (tag !== '')){
+                // insert the text into the element
+                elm.append(tag);
+            };
+        }
     };
 }]);
