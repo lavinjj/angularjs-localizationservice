@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70596c34-0f92-4d73-9f2d-b877d9f1d80c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Scripts/AppController.js" afterPath="$PROJECT_DIR$/app/Scripts/AppController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/localize/localize.js" afterPath="$PROJECT_DIR$/app/components/localize/localize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
     </list>
     <ignored path="angularjs-localizationservice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +29,7 @@
       <file leaf-file-name="localize.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/localize/localize.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="26" selection-start="2482" selection-end="2482" vertical-scroll-proportion="0.0">
+            <state line="31" column="46" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -40,26 +44,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadMe.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="6" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.7193764">
+            <state line="23" column="30" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.3534279">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Partials/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="7" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0">
+            <state line="2" column="22" selection-start="70" selection-end="80" vertical-scroll-proportion="-1.0833334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+        <entry file="file://$PROJECT_DIR$/app/Scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="3" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
               <folding />
@@ -68,16 +72,16 @@
         </entry>
       </file>
       <file leaf-file-name="AppController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/AppController.js">
+        <entry file="file://$PROJECT_DIR$/app/Scripts/AppController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="134" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+            <state line="18" column="32" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="EditPersonController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/EditPersonController.js">
+        <entry file="file://$PROJECT_DIR$/app/Scripts/EditPersonController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -86,7 +90,7 @@
         </entry>
       </file>
       <file leaf-file-name="HomeController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/HomeController.js">
+        <entry file="file://$PROJECT_DIR$/app/Scripts/HomeController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -94,10 +98,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewPersonController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/NewPersonController.js">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="168" column="12" selection-start="2010" selection-end="2010" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../code-explode/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="23" selection-end="35" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,19 +136,21 @@
         <option value="$PROJECT_DIR$/app/scripts/AppController.js" />
         <option value="$PROJECT_DIR$/app/partials/form.html" />
         <option value="$PROJECT_DIR$/app/partials/home.html" />
-        <option value="$PROJECT_DIR$/app/components/localize/localize.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/src/localizejs.js" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/components/localize/localize.js" />
+        <option value="$PROJECT_DIR$/app/Scripts/AppController.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,7 +178,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,7 +252,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="Scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,7 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
+              <option name="myItemId" value="Partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,36 +309,15 @@
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localize" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-localizationservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-localizationservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angularjs-gravatardirective/src/gravatardirective.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code-explode/.gitignore" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -369,11 +362,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986821" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
@@ -386,6 +378,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -446,29 +439,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/tfs/orderTalkDS9/Web/Scripts/app/menuservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://C:/tfs/orderTalkDS9/Web/Scripts/app/customerservice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="50" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://C:/tfs/orderTalkDS9/Tests/UnitTests/ClientSide.Tests/ViewControllers/HomeControllerUnitTests.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="369" column="7" selection-start="11883" selection-end="11883" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/form.html">
+    <entry file="file://$PROJECT_DIR$/app/Partials/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="107" selection-start="1529" selection-end="1529" vertical-scroll-proportion="-20.26923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="175" selection-end="175" vertical-scroll-proportion="-3.2692308" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/i18n/resources-locale_en-US.js">
@@ -481,51 +459,16 @@
         <state line="18" column="0" selection-start="297" selection-end="508" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/NewPersonController.js">
+    <entry file="file://$PROJECT_DIR$/app/Scripts/NewPersonController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/HomeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/EditPersonController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/AppController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="134" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/app/Scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="3" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="7" selection-start="1625" selection-end="1625" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/localize/localize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="26" selection-start="2482" selection-end="2482" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -539,7 +482,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="6" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.7193764">
+        <state line="38" column="6" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.7193764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../code-explode/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="23" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="12" selection-start="2010" selection-end="2010" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/localize/localize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="46" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Scripts/HomeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Scripts/EditPersonController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Scripts/AppController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="32" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="70" selection-end="80" vertical-scroll-proportion="-1.0833334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="30" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.3534279">
           <folding />
         </state>
       </provider>

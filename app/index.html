@@ -20,8 +20,10 @@
     <script type="text/javascript" src="scripts/EditPersonController.js"></script>
 </head>
 <body ng-controller="AppController">
-    <H1 ng-bind="'_HomeTitle_' | i18n"></H1>
-    <div ng-bind="'_Greeting_' | i18n"></div>
+    <H1 data-i18n="_HomeTitle_"></H1>
+    <div data-i18n="_Greeting_"></div>
     <div ng-view></div>
+    <hr/>
+    <a href="#" ng-click="setEnglishLanguage()">English</a> | <a href="#" ng-click="setPigLatinLanguage()">PigLatin</a>
 </body>
 </html>

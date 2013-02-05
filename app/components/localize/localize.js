@@ -27,6 +27,11 @@ angular.module('localization', []).
             $rootScope.$broadcast('localizeResourcesUpdates');
         },
 
+        setLanguage: function(value) {
+            localize.language = value;
+            localize.initLocalizedResources();
+        },
+
         initLocalizedResources:function () {
             // build the url to retrieve the localized resource file
             var url = '/i18n/resources-locale_' + localize.language + '.js';
