@@ -70,15 +70,46 @@ angular.module('localization', []).
     };
 }]).directive('i18n', ['localize', function(localize){
     return {
-        restrict:"EAC",
-        link:function (scope, elm, attrs) {
-            // construct the tag to insert into the element
-            var tag = localize.getLocalizedString(attrs.i18n);
-            // update the element only if data was returned
-            if((tag !== null) && (tag !== undefined) && (tag !== '')){
-                // insert the text into the element
-                elm.append(tag);
-            };
+        restrict: "EAC",
+        link: function (scope, elm, attrs) {
+            scope.$on('localizeResourcesUpdates', function() {
+                var token = attrs.i18n;
+                var values = token.split('|');
+                if (values.length >= 1) {
+                    // construct the tag to insert into the element
+                    var tag = localize.getLocalizedString(values[0]);
+                    // update the element only if data was returned
+                    if ((tag !== null) && (tag !== undefined) && (tag !== '')) {
+                        if (values.length > 1) {
+                            for (var index = 1; index < values.length; index++) {
+                                var target = '{' + (index - 1) + '}';
+                                tag = tag.replace(target, values[index]);
+                            }
+                        }
+                        // insert the text into the element
+                        elm.text(tag);
+                    };
+                }
+            });
+
+            attrs.$observe('i18n', function (value) {
+                var values = value.split('|');
+                if (values.length >= 1) {
+                    // construct the tag to insert into the element
+                    var tag = localize.getLocalizedString(values[0]);
+                    // update the element only if data was returned
+                    if ((tag !== null) && (tag !== undefined) && (tag !== '')) {
+                        if (values.length > 1) {
+                            for (var index = 1; index < values.length; index++) {
+                                var target = '{' + (index - 1) + '}';
+                                tag = tag.replace(target, values[index]);
+                            }
+                        }
+                        // insert the text into the element
+                        elm.text(tag);
+                    };
+                }
+            });
         }
     };
 }]);
