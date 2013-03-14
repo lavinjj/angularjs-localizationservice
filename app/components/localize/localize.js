@@ -44,19 +44,21 @@ angular.module('localization', []).
             });
         },
 
-        getLocalizedString:function (value) {
+        getLocalizedString: function(value) {
             // default the result to an empty string
             var result = '';
+
             // make sure the dictionary has valid data
             if ((localize.dictionary !== []) && (localize.dictionary.length > 0)) {
                 // use the filter service to only return those entries which match the value
                 // and only take the first result
-                var entry = $filter('filter')(localize.dictionary, {key:value})[0];
-                // check to make sure we have a valid entry
-                if ((entry !== null) && (entry != undefined)) {
-                    // set the result
-                    result = entry.value;
-                }
+                var entry = $filter('filter')(localize.dictionary, function(element) {
+                        return element.key === value;
+                    }
+                )[0];
+
+                // set the result
+                result = entry.value;
             }
             // return the value to the call
             return result;
