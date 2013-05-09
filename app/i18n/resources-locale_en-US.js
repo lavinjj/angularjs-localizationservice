@@ -30,13 +30,28 @@
         "description":"Label for first name field"
     },
     {
+        "key":"_FirstNameHelp_",
+        "value":"Enter your first name",
+        "description":"Label for first name field"
+    },
+    {
         "key":"_LastNameLabel_",
         "value":"Last Name",
         "description":"Label for last name field"
     },
     {
+        "key":"_LastNameHelp_",
+        "value":"Enter your last name",
+        "description":"Label for last name field"
+    },
+    {
         "key":"_EMailLabel_",
         "value":"Email",
+        "description":"Label for email field"
+    },
+    {
+        "key":"_EMailHelp_",
+        "value":"Enter a valid email address",
         "description":"Label for email field"
     },
     {
