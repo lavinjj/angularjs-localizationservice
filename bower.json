@@ -1,0 +1,26 @@
+{
+  "name": "angularjs-localizationservice",
+  "version": "0.1.0",
+  "homepage": "https://github.com/michaelwoods/angularjs-localizationservice",
+  "authors": [
+    "Michael Woods <michael.woods@highlyrefined.com>"
+  ],
+  "description": "i18n enhancement for angularjs",
+  "main": "src/localize.js",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "localize",
+    "localization",
+    "i18n"
+  ],
+  "license": "N/A",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
