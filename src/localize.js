@@ -17,6 +17,8 @@ angular.module('localization', [])
             language:$window.navigator.userLanguage || $window.navigator.language,
             // array to hold the localized resource string entries
             dictionary:[],
+            // location of the resource file
+            url: undefined,
             // flag to indicate if the service hs loaded the resource file
             resourceFileLoaded:false,
 
@@ -36,10 +38,21 @@ angular.module('localization', [])
                 localize.initLocalizedResources();
             },
 
+            // allows setting of resource url on the fly
+            setUrl: function(value) {
+                localize.url = value;
+                localize.initLocalizedResources();
+            },
+
+            // builds the url for locating the resource file
+            buildUrl: function() {
+                return '/i18n/resources-locale_' + localize.language + '.js';
+            },
+
             // loads the language resource file from the server
             initLocalizedResources:function () {
                 // build the url to retrieve the localized resource file
-                var url = '/i18n/resources-locale_' + localize.language + '.js';
+                var url = localize.url || localize.buildUrl();
                 // request the resource file
                 $http({ method:"GET", url:url, cache:false }).success(localize.successCallback).error(function () {
                     // the request failed set the url to the default resource file
