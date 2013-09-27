@@ -38,6 +38,10 @@ There is a delay loading the resource file, you may need to use the filter inste
 
 ## Change Log
 
+### 0.1.2 - 09/26/2013
+
+Resolved github issue #6 by adding code to properly parse language under android 2.x
+
 ### 0.1.1 - 09/26/2013
 
 Resolved github issue #8 by changing broadcast message to "localizeResourcesUpdated" across all components.
