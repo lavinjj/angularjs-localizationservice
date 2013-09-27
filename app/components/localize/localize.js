@@ -14,7 +14,7 @@ angular.module('localization', [])
     .factory('localize', ['$http', '$rootScope', '$window', '$filter', function ($http, $rootScope, $window, $filter) {
         var localize = {
             // use the $window service to get the language of the user's browser
-            language:$window.navigator.userLanguage || $window.navigator.language,
+            language:'',
             // array to hold the localized resource string entries
             dictionary:[],
             // location of the resource file
@@ -46,7 +46,19 @@ angular.module('localization', [])
 
             // builds the url for locating the resource file
             buildUrl: function() {
-                return '/i18n/resources-locale_' + localize.language + '.js';
+                if(!localize.language){
+                    var lang, androidLang;
+                    // works for earlier version of Android (2.3.x)
+                    if ($window.navigator && $window.navigator.userAgent && (androidLang = $window.navigator.userAgent.match(/android.*\W(\w\w)-(\w\w)\W/i))) {
+                        lang = androidLang[1];
+                    } else {
+                        // works for iOS, Android 4.x and other devices
+                        lang = $window.navigator.userLanguage || $window.navigator.language;
+                    }
+                    // set language
+                    localize.language = lang;
+                }
+                return 'i18n/resources-locale_' + localize.language + '.js';
             },
 
             // loads the language resource file from the server
