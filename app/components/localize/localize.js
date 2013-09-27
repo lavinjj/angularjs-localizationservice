@@ -17,6 +17,8 @@ angular.module('localization', [])
             language:$window.navigator.userLanguage || $window.navigator.language,
             // array to hold the localized resource string entries
             dictionary:[],
+            // location of the resource file
+            url: undefined,
             // flag to indicate if the service hs loaded the resource file
             resourceFileLoaded:false,
 
@@ -27,7 +29,7 @@ angular.module('localization', [])
                 // set the flag that the resource are loaded
                 localize.resourceFileLoaded = true;
                 // broadcast that the file has been loaded
-                $rootScope.$broadcast('localizeResourcesUpdates');
+                $rootScope.$broadcast('localizeResourcesUpdated');
             },
 
             // allows setting of language on the fly
@@ -36,14 +38,25 @@ angular.module('localization', [])
                 localize.initLocalizedResources();
             },
 
+            // allows setting of resource url on the fly
+            setUrl: function(value) {
+                localize.url = value;
+                localize.initLocalizedResources();
+            },
+
+            // builds the url for locating the resource file
+            buildUrl: function() {
+                return '/i18n/resources-locale_' + localize.language + '.js';
+            },
+
             // loads the language resource file from the server
             initLocalizedResources:function () {
                 // build the url to retrieve the localized resource file
-                var url = 'i18n/resources-locale_' + localize.language + '.js';
+                var url = localize.url || localize.buildUrl();
                 // request the resource file
                 $http({ method:"GET", url:url, cache:false }).success(localize.successCallback).error(function () {
                     // the request failed set the url to the default resource file
-                    var url = 'i18n/resources-locale_default.js';
+                    var url = '/i18n/resources-locale_default.js';
                     // request the default resource file
                     $http({ method:"GET", url:url, cache:false }).success(localize.successCallback);
                 });
@@ -112,7 +125,7 @@ angular.module('localization', [])
             },
 
             link:function (scope, elm, attrs) {
-                scope.$on('localizeResourcesUpdates', function() {
+                scope.$on('localizeResourcesUpdated', function() {
                     i18nDirective.updateText(elm, attrs.i18n);
                 });
 

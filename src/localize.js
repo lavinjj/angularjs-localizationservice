@@ -29,7 +29,7 @@ angular.module('localization', [])
                 // set the flag that the resource are loaded
                 localize.resourceFileLoaded = true;
                 // broadcast that the file has been loaded
-                $rootScope.$broadcast('localizeResourcesUpdates');
+                $rootScope.$broadcast('localizeResourcesUpdated');
             },
 
             // allows setting of language on the fly
@@ -125,7 +125,7 @@ angular.module('localization', [])
             },
 
             link:function (scope, elm, attrs) {
-                scope.$on('localizeResourcesUpdates', function() {
+                scope.$on('localizeResourcesUpdated', function() {
                     i18nDirective.updateText(elm, attrs.i18n);
                 });
 

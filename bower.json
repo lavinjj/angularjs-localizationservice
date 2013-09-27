@@ -1,8 +1,9 @@
 {
   "name": "angularjs-localizationservice",
-  "version": "0.1.0",
-  "homepage": "https://github.com/michaelwoods/angularjs-localizationservice",
+  "version": "0.1.1",
+  "homepage": "https://github.com/lavinjj/angularjs-localizationservice",
   "authors": [
+      "Jim Lavin <jlavin@jimlavin.net>",
     "Michael Woods <michael.woods@highlyrefined.com>"
   ],
   "description": "i18n enhancement for angularjs",
