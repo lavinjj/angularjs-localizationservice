@@ -86,10 +86,10 @@ angular.module('localization', [])
                     var entry = $filter('filter')(localize.dictionary, function(element) {
                             return element.key === value;
                         }
-                    )[0];
+                    );
 
                     // set the result
-                    result = entry.value;
+                    result = entry[0] ? entry[0].value : value;
                 }
                 // return the value to the call
                 return result;
