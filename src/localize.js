@@ -15,6 +15,7 @@ angular.module('localization', [])
         
         this.languages = ['en-US'];
         this.defaultLanguage = 'en-US';
+        this.ext = 'js';
 
         var provider = this;
 
@@ -83,7 +84,7 @@ angular.module('localization', [])
                         // set language
                         localize.language = this.fallbackLanguage(lang);
                     }
-                    return '/i18n/resources-locale_' + localize.language + '.js';
+                    return '/i18n/resources-locale_' + localize.language + '.' + provider.ext;
                 },
 
                 // loads the language resource file from the server
@@ -93,7 +94,7 @@ angular.module('localization', [])
                     // request the resource file
                     $http({ method:"GET", url:url, cache:false }).success(localize.successCallback).error(function () {
                         // the request failed set the url to the default resource file
-                        var url = 'i18n/resources-locale_default.js';
+                        var url = 'i18n/resources-locale_default' + '.' + provider.ext;
                         // request the default resource file
                         $http({ method:"GET", url:url, cache:false }).success(localize.successCallback);
                     });
