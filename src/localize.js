@@ -84,7 +84,7 @@ angular.module('localization', [])
                         // set language
                         localize.language = this.fallbackLanguage(lang);
                     }
-                    return '/i18n/resources-locale_' + localize.language + '.' + provider.ext;
+                    return 'i18n/resources-locale_' + localize.language + '.' + provider.ext;
                 },
 
                 // loads the language resource file from the server
