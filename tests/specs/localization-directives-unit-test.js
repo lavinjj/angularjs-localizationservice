@@ -51,6 +51,57 @@ describe('i18n directive', function() {
     });
 });
 
+describe('i18n directive with i18n-html', function() {
+    var elm1;
+    var elm2;
+    var scope;
+    var localize;
+
+    // load the localization code
+    beforeEach(module('localization'));
+
+    beforeEach(function () {
+
+        localize = {
+            getLocalizedString: function (value) {
+                if (value === 'TEST_ITEM1') {
+                    return 'This is a test <strong>response</strong>.';
+                } else {
+                    return '';
+                }
+            }
+        };
+
+        module('localization', function ($provide) {
+            $provide.value('localize', localize);
+        });
+    });
+
+    beforeEach(inject(function ($rootScope, $compile) {
+        // we might move this tpl into an html file as well...
+        elm1 = angular.element('<div data-i18n="TEST_ITEM1"></div>');
+
+        elm2 = angular.element('<div data-i18n="TEST_ITEM1" data-i18n-html></div>');
+
+        scope = $rootScope;
+        $compile(elm1)(scope);
+        $compile(elm2)(scope);
+        scope.$digest();
+    }));
+
+    it('should have html encoded content', function () {
+        var titles = elm1.html();
+
+        expect(titles).toBe('This is a test &lt;strong&gt;response&lt;/strong&gt;.');
+    });
+
+    it('should have html content', function () {
+        var titles = elm2.html();
+
+        expect(titles).toBe('This is a test <strong>response</strong>.');
+    });
+});
+
 describe('i18nAttr directive', function() {
     var elm;
     var multi;

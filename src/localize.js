@@ -144,7 +144,7 @@ angular.module('localization', [])
     .directive('i18n', ['localize', function(localize){
         var i18nDirective = {
             restrict:"EAC",
-            updateText:function(elm, token){
+            updateText:function(elm, token, html){
                 var values = token.split('|');
                 if (values.length >= 1) {
                     // construct the tag to insert into the element
@@ -158,18 +158,18 @@ angular.module('localization', [])
                             }
                         }
                         // insert the text into the element
-                        elm.text(tag);
+                        elm[html ? 'html':'text'](tag);
                     };
                 }
             },
 
             link:function (scope, elm, attrs) {
                 scope.$on('localizeResourcesUpdated', function() {
-                    i18nDirective.updateText(elm, attrs.i18n);
+                    i18nDirective.updateText(elm, attrs.i18n, angular.isDefined(attrs.i18nHtml));
                 });
 
                 attrs.$observe('i18n', function (value) {
-                    i18nDirective.updateText(elm, attrs.i18n);
+                    i18nDirective.updateText(elm, attrs.i18n, angular.isDefined(attrs.i18nHtml));
                 });
             }
         };
