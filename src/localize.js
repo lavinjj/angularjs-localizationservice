@@ -12,7 +12,7 @@ angular.module('localization', [])
     // localization service responsible for retrieving resource files from the server and
     // managing the translation dictionary
     .provider('localize', function localizeProvider() {
-        
+
         this.languages = ['en-US'];
         this.defaultLanguage = 'en-US';
         this.ext = 'js';
@@ -215,7 +215,7 @@ angular.module('localization', [])
         };
 
         return i18NAttrDirective;
-    }] 
+    }]) 
     // translation directive that handles the localization of images.
     // usage <img data-i18n-img-src="IMAGE" />
     .directive('i18nImgSrc', [
