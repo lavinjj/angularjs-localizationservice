@@ -51,7 +51,7 @@ describe('localization service', function () {
     });
 
     it('should request language resource file with right parameters', function () {
-        $httpBackend.expectGET('/i18n/resources-locale_en-US.js').
+        $httpBackend.expectGET('i18n/resources-locale_en-US.js').
             respond([
             {
                 "key":"_HomeTitle_",
@@ -111,7 +111,7 @@ describe('localization service', function () {
     });
 
     it('should broadcast a notice once localized resources are loaded', function(){
-        $httpBackend.whenGET('/i18n/resources-locale_en-US.js').
+        $httpBackend.whenGET('i18n/resources-locale_en-US.js').
             respond([
                 {
                     "key":"_HomeTitle_",
@@ -175,7 +175,7 @@ describe('localization service', function () {
     });
 
     it('should provide localized resource string', function(){
-        $httpBackend.whenGET('/i18n/resources-locale_en-US.js').
+        $httpBackend.whenGET('i18n/resources-locale_en-US.js').
             respond([
                 {
                     "key":"_HomeTitle_",
@@ -239,7 +239,7 @@ describe('localization service', function () {
     });
 
     it('should request a new language resource file when setLanguage is called', function () {
-        $httpBackend.whenGET('/i18n/resources-locale_en-US.js').
+        $httpBackend.whenGET('i18n/resources-locale_en-US.js').
             respond([
                 {
                     "key":"_HomeTitle_",
@@ -293,7 +293,7 @@ describe('localization service', function () {
                 }
             ]);
 
-        $httpBackend.expectGET('/i18n/resources-locale_es.js').
+        $httpBackend.expectGET('i18n/resources-locale_es.js').
             respond([
                 {
                     "key":"_Greeting_",
@@ -340,7 +340,7 @@ describe('localization service', function () {
     });
 
     it('should return key if no value is available', function() {
-        $httpBackend.expectGET('/i18n/resources-locale_en-US.js').
+        $httpBackend.expectGET('i18n/resources-locale_en-US.js').
             respond([{
                 "key":"test",
                 "value":"win"
