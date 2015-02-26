@@ -16,6 +16,7 @@ angular.module('localization', [])
         this.languages = ['en-US'];
         this.defaultLanguage = 'en-US';
         this.ext = 'js';
+        this.baseUrl = 'i18n/';
 
         var provider = this;
 
@@ -74,7 +75,7 @@ angular.module('localization', [])
                     return $http({ method: "GET", url: imageUrl, cache: false });
                 },
                 // builds the url for locating the resource file
-                buildUrl: function() {
+                buildUrl: function(baseUrl) {
                     if(!localize.language){
                         var lang, androidLang;
                         // works for earlier version of Android (2.3.x)
@@ -87,17 +88,17 @@ angular.module('localization', [])
                         // set language
                         localize.language = this.fallbackLanguage(lang);
                     }
-                    return 'i18n/resources-locale_' + localize.language + '.' + provider.ext;
+                    return baseUrl + 'resources-locale_' + localize.language + '.' + provider.ext;
                 },
 
                 // loads the language resource file from the server
                 initLocalizedResources:function () {
                     // build the url to retrieve the localized resource file
-                    var url = localize.url || localize.buildUrl();
+                    var url = localize.url || localize.buildUrl(provider.baseUrl);
                     // request the resource file
                     $http({ method:"GET", url:url, cache:false }).success(localize.successCallback).error(function () {
                         // the request failed set the url to the default resource file
-                        var url = 'i18n/resources-locale_default' + '.' + provider.ext;
+                        var url = provider.baseUrl + 'resources-locale_default' + '.' + provider.ext;
                         // request the default resource file
                         $http({ method:"GET", url:url, cache:false }).success(localize.successCallback);
                     });
@@ -109,16 +110,15 @@ angular.module('localization', [])
                     var result = '';
 
                     // make sure the dictionary has valid data
-                    if ((localize.dictionary !== []) && (localize.dictionary.length > 0)) {
+                    if (localize.resourceFileLoaded) {
                         // use the filter service to only return those entries which match the value
                         // and only take the first result
                         var entry = $filter('filter')(localize.dictionary, function(element) {
                                 return element.key === value;
                             }
                         );
-
                         // set the result
-                        result = entry[0] ? entry[0].value : value;
+                        result = entry[value] ? entry[value] : value;
                     }
                     // return the value to the call
                     return result;
@@ -224,11 +224,11 @@ angular.module('localization', [])
                 restrict: 'A',
                 link: function(scope, element, attrs) {
                     var i18Nsrc = attrs.i18nImgSrc;
-                    var imagePath = '/i18N/images/' + localize.language + '/';
+                    var imagePath = provider.baseUrl + '/images/' + localize.language + '/';
                     var imageUrl = imagePath + i18Nsrc;
                     localize.buildImgUrl(imageUrl).success(function() {
                         element[0].src = imageUrl;
-                    }).error(function() { element[0].src = '/i18N/images/default/' + i18Nsrc; });
+                    }).error(function() { element[0].src = provider.baseUrl + '/images/default/' + i18Nsrc; });
                 }
             };
             return i18NImageDirective;
