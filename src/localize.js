@@ -105,20 +105,20 @@ angular.module('localization', [])
                 },
 
                 // checks the dictionary for a localized resource string
-                getLocalizedString: function(value) {
+                getLocalizedString: function(KEY) {
                     // default the result to an empty string
                     var result = '';
 
                     // make sure the dictionary has valid data
                     if (localize.resourceFileLoaded) {
-                        // use the filter service to only return those entries which match the value
+                        // use the filter service to only return those entries which match the KEY
                         // and only take the first result
                         var entry = $filter('filter')(localize.dictionary, function(element) {
-                                return element.key === value;
+                                return element.key === KEY;
                             }
                         );
                         // set the result
-                        result = entry[value] ? entry[value] : value;
+                        result = entry.value ? entry.value : KEY;
                     }
                     // return the value to the call
                     return result;
@@ -215,7 +215,7 @@ angular.module('localization', [])
         };
 
         return i18NAttrDirective;
-    }]) 
+    }])
     // translation directive that handles the localization of images.
     // usage <img data-i18n-img-src="IMAGE" />
     .directive('i18nImgSrc', [
