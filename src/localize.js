@@ -116,7 +116,7 @@ angular.module('localization', [])
                         var entry = $filter('filter')(localize.dictionary, function(element) {
                                 return element.key === KEY;
                             }
-                        );
+                        )[0];
                         // set the result
                         result = entry.value ? entry.value : KEY;
                     }
